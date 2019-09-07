@@ -1,0 +1,28 @@
+{
+  "name": "@bitliner/kubernetes-mongo-shard-cluster",
+  "version": "1.0.0",
+  "description": "Mongo db  shard cluster built on kubernetes. This configuration include:  - 3 node as config replica set  - 4 shard  with 3 node as replica set for each shard  - 2 node as mongos router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderflow-bv/kubernetes-mongo-shard-cluster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonderflow-bv/kubernetes-mongo-shard-cluster/issues"
+  },
+  "homepage": "https://github.com/wonderflow-bv/kubernetes-mongo-shard-cluster#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
