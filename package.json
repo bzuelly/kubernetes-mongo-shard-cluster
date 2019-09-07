@@ -1,6 +1,6 @@
 {
   "name": "@bitliner/kubernetes-mongo-shard-cluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mongo db  shard cluster built on kubernetes. This configuration include:  - 3 node as config replica set  - 4 shard  with 3 node as replica set for each shard  - 2 node as mongos router",
   "main": "index.js",
   "scripts": {
